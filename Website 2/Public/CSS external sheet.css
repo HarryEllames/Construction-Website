@@ -1,0 +1,402 @@
+* {
+	margin:0;
+	padding: 5px;
+	border:0;
+    vertical-align: middle;
+}
+
+
+/*The webpage background colour. Behind the containers */
+body {
+    background: transparent;
+    
+    
+    background-position: center;
+}
+
+/* Gets rid of the line under hyper links */
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "Times New Roman";
+    font-weight: bold;
+}
+
+h1 {
+    text-align: center;
+    float: center;
+    
+
+    padding-left: 50px;
+/*    
+    padding-right: 450px;*/
+    color: black;
+    font-size: 40px
+    
+
+}
+h2 {
+    padding: 20px;
+    font-size:27px;
+    font-weight: bold;
+    color: aliceblue
+}
+h3 {
+    text-align: center;
+    font-size: 35px;
+    color: white;
+}
+h4 {
+    padding: 2px;
+    font-size:27px;
+    font-weight: bold;
+    /*float: right;*/
+    text-align: right;
+    color: blue;
+}
+h5{
+    /*Button Name*/
+    font-size: 30px;
+}
+ul  {
+    font-weight: bold;
+}
+ol  {
+    font-size: 20px;
+    
+}
+p {
+    color: black;
+    text-align: justify;
+    font-size: 25px;
+    padding: 5px;
+} 
+p2 {
+
+
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+p3 {
+    display: inline;
+    color: blue;
+    font-size: 19px;
+}
+pre {
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+
+
+ul{
+    margin-left: 35px;  
+}
+
+table, th, td {
+  border: 1px solid black;
+}
+
+section
+{
+    /* Stops the text running into the boxes bellow it */
+    overflow: auto;
+}
+
+
+
+/*   Header   */
+header
+{
+    margin: 0 auto;
+    background-color: transparent;
+    position: sticky; 
+    
+    max-width: 1260px;
+	min-width: 1200px; 
+    max-height: 400px;
+    min-height: 100px;
+}
+
+
+#Footnote{
+    text-align: center;
+    
+        
+}
+
+/*     BUTTONS    */
+
+#HomeButton
+{
+    
+    margin: 0 auto;
+	background-color: none;
+
+    padding-left: 3%;
+    padding-right: 3%;
+    height: 35px;
+	color: #000;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 25px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.button {
+    float: left;
+    width: 33.33%;
+    height: 250px;
+    padding: 5px;
+}
+
+.buttonName {
+    text-align: center;
+    width: 33%;
+    height: 60px;
+    padding: 5px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#BackToHomePage{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-style: groove;
+    border-width: 4px;
+    
+}
+
+
+
+
+
+
+/*   BODY   */
+#BodyContainer
+{
+    margin: 0 auto;
+	padding: 10px;
+	background-color: whitesmoke;
+    
+    
+	max-width: 1260px;
+	min-width: 1260px; 
+    
+    
+	color:#000;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+
+#TitleContainer{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: 2px solid black;
+    width: 100%;
+    display: block;
+    text-align: center;
+    background-color: rgb(180,0,0);
+    float: center;
+    
+    
+    border-left: 0px;
+    border-right: 0px;
+}
+/* End of Body */
+
+#QuoteContainer{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border: 8px solid red;
+    border-style: double;
+    width: 30%;
+    display: block;
+    text-align: center;
+    background-color: rgb(45,40,40)/*rgb(180,0,0)*/;
+    float: center;
+    
+    
+}
+/* End of Body */
+
+
+
+
+#Logo{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+
+#LeftWideBody{
+    margin: 0;
+    padding: 10px;
+
+    display: inline-block;
+    text-align: left;
+    
+
+    background-color: none;
+
+    max-width: 67%;
+    
+}
+#RightThinBody{
+    margin: 0;
+    padding: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
+
+    display: inline-block;
+    text-align: left;
+    
+    
+
+    background-color: none;
+    float: right;
+    /*
+    border: 5px solid black;
+    */
+    vertical-align:super;
+    max-width: 28%;
+
+
+}
+#Services{
+    margin: 0;
+    padding: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
+    display: inline-block;
+    text-align: left;
+    
+    
+
+    background-color: none;
+    float: right;
+    
+    border: 5px solid black;
+    
+    vertical-align:super;
+    max-width: 28%;
+
+
+}
+
+#LeftThinBody{
+    margin: 1px;
+    padding: 0px;
+
+    display: inline-block;
+    text-align: left;
+    
+
+    background-color: none;
+
+
+    max-width: 28%;
+    
+}
+#RightWideBody{
+    margin: 0;
+    padding: 10px;
+    margin-right: 5px;
+    margin-top: 10px;
+
+    display: inline-block;
+    text-align: left;
+    
+    background-color: none;
+
+    float: right;
+    
+    /*
+    border: 5px solid black;
+    */
+    vertical-align:super;
+    width: 68%;
+
+
+
+}
+
+
+
+#Style1Info{
+    width: 70%;
+}
+#Style1Photo{
+    float: right;
+}
+#Style2Info{
+    width: 70%;
+}
+#Style2Photo{
+    float: right;
+}
+#JavaInfo{
+    width: 70%;
+}
+#JavaPhoto{
+    float: right;
+}
+
+
+
+
+#style1Link{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-style: groove;
+    border-width: 4px;
+}
+#style2Link{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-style: groove;
+    border-width: 4px;
+}
+#javaLink{
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    border-style: groove;
+    border-width: 4px;
+}
+
+
+
+
+
+
+
+/* the design around the footer class */
+footer{
+	margin: 0 auto;
+    padding: 10px;
+	background-color:grey;
+    max-width: 1260px;
+	min-width: 1260px;
+	color: #000;
+    font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+}
+
+
+
